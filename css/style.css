@@ -1,0 +1,140 @@
+/* GENERAL RULES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+  }
+  
+/* HEADER */
+  header {
+    height: 130px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icons {
+    width: 10px;
+    height: auto;
+  }
+
+   img{
+    width: 50px;
+    height: auto;
+  }
+  .nav-header> li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+    position: relative;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  .nav-link-black {
+    color: black;
+    font-weight: 500;
+  }
+  
+  .nav-link-black i {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  #btn-sign {
+    background-color: #F3F4F5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: -20px;
+    transition: all 0.2s ease 0s;
+  }
+  
+  #btn-sign:hover {
+    background-color: rgb(223, 223, 223);
+  }
+  
+  #btn-get:hover {
+    opacity: 0.8;
+  }
+  
+  #btn-get {
+    font-weight: 400;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: -20px;
+    transition: all 0.2s ease 0s;
+  }
+  
+/*  JAVASCIPT CONTROL  */
+
+/* DROPDOWN */
+  .dropdown-content {
+    display: none;
+    font-weight: 400;
+    position: absolute;
+    top: 30px;
+    left: -15px;
+    color: rgb(139, 149, 158);
+    min-width: 140px;
+    overflow: auto;
+    box-shadow: 8px 8px 10px 8px rgba(184, 184, 184, 0.3);
+    z-index: 1;
+    z-index: 1;
+    border-radius: 10px;
+  }
+ 
+  /* DROPDOWN CONTENT */
+  .dropdown-features {
+    display: none;
+    font-weight: 400;
+    position: absolute;
+    top: 30px;
+    left: -200px;
+    color: grey;
+    min-width: 140px;
+    overflow: auto;
+    box-shadow: 8px 8px 10px 8px rgba(184, 184, 184, 0.3);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .features {
+    display: flex;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .dropdown-content li {
+    margin: 30px 10px ;
+    list-style-type: none;
+  }
+  
+  .dropdown-features li {
+    list-style-type: none;
+    margin: 30px 35px ;
+  }
+  
+  .title-li {
+    color: rgb(202, 202, 202);
+    font-weight: 500;
+  }
