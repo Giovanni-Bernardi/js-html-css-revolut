@@ -20,10 +20,18 @@
     align-items: center;
   }
   
-  .icons {
-    width: 10px;
+  li.nav-item.icons img {
+    width: 20px;
     height: auto;
+    margin-left: 5px;
+    margin-left: 7px;
   }
+
+  li.nav-item {
+    text-transform: uppercase;
+    color: rgb(206, 213, 219);
+    font-weight: 500;
+}
 
    img{
     width: 50px;
@@ -132,6 +140,7 @@
   .dropdown-features li {
     list-style-type: none;
     margin: 30px 35px ;
+    width: 130px;
   }
   
   .title-li {
